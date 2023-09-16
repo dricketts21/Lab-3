@@ -237,7 +237,7 @@
         <!--Albums-->
         <scene sceneID="lQP-1M-Sj4">
             <objects>
-                <viewController id="3SD-DE-ZKK" sceneMemberID="viewController">
+                <viewController id="3SD-DE-ZKK" customClass="AlbumsViewController" customModule="lab_tunley" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ce8-yn-R3q">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -275,6 +275,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="MhZ-7C-sfa" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="748-Jm-M8k">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
