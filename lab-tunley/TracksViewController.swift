@@ -51,6 +51,10 @@ class TracksViewController: UIViewController, UITableViewDataSource {
                 let response = try decoder.decode(TracksResponse.self, from: data)
                 let tracks = response.results
                 print("✅ \(tracks)")
+                DispatchQueue.main.async {
+                    self?.tracks = tracks
+                    self?.tableView.reloadData()
+                }
             }catch {
                 print("❌ Error parsing JSON: \(error.localizedDescription)")
             }
