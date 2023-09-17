@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21FBB0B2AB69C890087F56D /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21FBB0A2AB69C890087F56D /* AlbumCell.swift */; };
 		A2ABBA892AB6649C00A02733 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABBA882AB6649C00A02733 /* AlbumsViewController.swift */; };
 		A2ABBA8B2AB667A800A02733 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABBA8A2AB667A800A02733 /* Album.swift */; };
 		CB7254DF2939D37800F531FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7254DE2939D37800F531FB /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A21FBB0A2AB69C890087F56D /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
 		A2ABBA882AB6649C00A02733 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		A2ABBA8A2AB667A800A02733 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		CB7254DB2939D37800F531FB /* lab-tunley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-tunley.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,11 +76,12 @@
 				CB8B1546293EFCA100397B69 /* DetailViewController.swift */,
 				CB7254DE2939D37800F531FB /* AppDelegate.swift */,
 				CB7254E02939D37800F531FB /* SceneDelegate.swift */,
+				A2ABBA882AB6649C00A02733 /* AlbumsViewController.swift */,
+				A21FBB0A2AB69C890087F56D /* AlbumCell.swift */,
 				CB7254E42939D37800F531FB /* Main.storyboard */,
 				CB7254E72939D37A00F531FB /* Assets.xcassets */,
 				CB7254E92939D37A00F531FB /* LaunchScreen.storyboard */,
 				CB7254EC2939D37A00F531FB /* Info.plist */,
-				A2ABBA882AB6649C00A02733 /* AlbumsViewController.swift */,
 			);
 			path = "lab-tunley";
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				CB7254E12939D37800F531FB /* SceneDelegate.swift in Sources */,
 				CB7254F6293B224000F531FB /* Track.swift in Sources */,
 				A2ABBA8B2AB667A800A02733 /* Album.swift in Sources */,
+				A21FBB0B2AB69C890087F56D /* AlbumCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
