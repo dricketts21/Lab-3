@@ -52,6 +52,12 @@ class AlbumsViewController: UIViewController, UICollectionViewDataSource {
 
         // Initiate the network request
         task.resume()
+        let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
+        layout.minimumInteritemSpacing = 4
+        layout.minimumLineSpacing = 4
+        let numberOfColumns: CGFloat = 3
+        let width = (collectionView.bounds.width - layout.minimumInteritemSpacing * (numberOfColumns - 1)) / numberOfColumns
+        layout.itemSize = CGSize(width: width, height: width)
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         albums.count
